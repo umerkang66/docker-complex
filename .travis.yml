@@ -1,3 +1,4 @@
+# travis will pull only the master branch of repository, so if we change the some other branch, the after_success builds will run only on master branch code
 sudo: required
 services:
     - docker
